@@ -1,0 +1,24 @@
+.mh-90vh{
+    min-height: 90vh;
+}
+.mh-69vh{
+    min-height: 69vh;
+}
+#Home{
+    padding: 15px 35px; padding-top:0;
+   
+}
+#displayHome{
+    color: blueviolet !important;
+}
+#Appointments{
+    padding: 12px; 
+    color: white;
+}
+/* this is needed to make the content scrollable on larger screens */
+
+@media (max-width: 768px) {
+    .small-nav{
+        height: 0% !important;
+    }
+}
